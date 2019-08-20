@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CalculateTest {
+namespace WindowsFormsApp1 {
     static class Program {
         /// <summary>
         /// The main entry point for the application.
@@ -14,7 +14,7 @@ namespace CalculateTest {
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Part1());
+            Application.Run(new Part2());
         }
     }
 }

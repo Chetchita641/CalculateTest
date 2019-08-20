@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CalculateTest {
-    public partial class Form1 : Form {
-        public Form1()
+namespace WindowsFormsApp1 {
+    public partial class Part2 : Form {
+        public Part2()
         {
             InitializeComponent();
         }

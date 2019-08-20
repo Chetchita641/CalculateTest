@@ -14,7 +14,7 @@ namespace CalculateTest {
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Part1());
+            Application.Run(new Part2());
         }
     }
 }
