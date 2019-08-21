@@ -409,6 +409,11 @@ namespace CalculateTest {
         {
             if (index > top)
                 return null;
+            else if (index > previousResultLimit)
+            {
+                sOutput = "Error: Previous result index out of range";
+                return null;
+            }
 
             int adjustedIndex = (top % previousResultLimit) - index;
             if (adjustedIndex < 0)
